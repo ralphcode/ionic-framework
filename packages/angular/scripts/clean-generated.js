@@ -1,7 +1,7 @@
 const path = require('path');
 const cwd = process.cwd();
 
-const glob = require('glob');
+const { glob } = require('glob');
 const fs = require('fs-extra');
 
 const distDir = path.join(__dirname, '../dist');
